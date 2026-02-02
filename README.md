@@ -23,4 +23,9 @@ make build
 
 cd ingress-nginx
 
+export TAG="dev"
+export REGISTRY="$USER"
+
+make build image
+
 ```
