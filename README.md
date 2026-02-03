@@ -12,7 +12,7 @@ docker buildx ls
 
 cd ingress-nginx/images/nginx
 make builder
-export REGISTRY='andreujove'
+export REGISTRY="andreujove"
 make build
 
 ```
